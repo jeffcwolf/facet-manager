@@ -1,14 +1,29 @@
-Sample OpenRefine extension
-===========================
+# Facet Manager
 
-This repository contains a scaffold of an OpenRefine extension, which you can use as a basis to write your own.
-See [our guide to writing extensions](https://openrefine.org/docs/technical-reference/writing-extensions) for more information about the process.
+This extension allows the user to import and export Facets to an OpenRefine project, without using the Permalink functionality.
 
-### Getting started
+## Status
+This extension is provided as-is, without any expectation of ongoing maintenance. Feel free to fork and modify.
 
-To start your own extension, click the "Use this template" button in the top right corner of this page.
-This will create a copy of this repository, where you can then change:
-* The extension name and description in `module/MOD-INF/module.properties`
-* The `groupId`, `artifactId`, `name` and `description` fields in `pom.xml`
-* Edit this `README.md` file to describe your extension to potential users and contributors instead of the sample extension's own instructions
+## Installation
 
+1. Download the latest release from the releases page
+2. Copy the .zip file to your OpenRefine extensions folder:
+   - Windows: `C:\Users\[User]\AppData\Roaming\OpenRefine\extensions`
+   - Linux: `~/.local/share/openrefine/extensions`
+   - Mac: `~/Library/Application Support/OpenRefine/extensions`
+3. Restart OpenRefine
+
+## Usage
+
+Explain how to use your extension with screenshots/examples.
+
+## Building from Source
+
+1. Clone this repository
+2. Run `mvn package`
+3. The packaged extension will be in `target/`
+
+## License
+
+Apache 2.0 License
