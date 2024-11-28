@@ -23,7 +23,7 @@ $(function() {
                             "Safely save your facet setups and load them into other projects.\n\n" +
                             "Supports: list, range, timerange, text, and scatterplot facets.\n" +
                             "Maximum configuration file size: 1MB\n\n" +
-                            "GitHub: [github-repo-url]\n" +
+                            "GitHub: https://github.com/jeffcwolf/facet-manager\n" +
                             "Author: Jeffrey Wolf");
                 }
             }
