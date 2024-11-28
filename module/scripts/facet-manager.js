@@ -72,7 +72,7 @@ $(function() {
              return;
          }
   
-         // Add validation functions
+         // Validation functions
          function validateColumns(config) {
             var projectColumns = theProject.columnModel.columns.map(col => col.name);
             config.facets.forEach(function(facet) {
