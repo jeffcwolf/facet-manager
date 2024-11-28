@@ -1,0 +1,14 @@
+# Maven
+target/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Build files
+module/MOD-INF/classes/
