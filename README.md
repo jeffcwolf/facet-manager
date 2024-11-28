@@ -1,6 +1,6 @@
 # Facet Manager
 
-This extension allows the user to import and export Facets to an OpenRefine project, without using the Permalink functionality.
+This OpenRefine extension allows the user to import and export Facets to an OpenRefine project, without using the Permalink functionality.
 
 ## Status
 This extension is provided as-is, without any expectation of ongoing maintenance. Feel free to fork and modify.
