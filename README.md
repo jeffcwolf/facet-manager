@@ -3,7 +3,7 @@
 This OpenRefine extension provides the user the ability to import and export Facets to/from an OpenRefine project, bypassing the (rather limited) Permalink functionality.
 
 ## Status
-This extension is provided as-is, without any expectation of ongoing maintenance. Feel free to fork and modify.
+This extension is provided as-is, without any expectation of ongoing maintenance. Feel free to fork and modify. Only very basic testing has been done.
 
 ## Installation
 
