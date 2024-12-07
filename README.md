@@ -32,7 +32,7 @@ After successful installation, the Facet Manager Extension should be visible in 
 
 When you click its name, a dropdown menu will appear with 3 commands:
 
-![Facet Manager Extension dropdown](assets/Facet_MAnager_Extension_dropdown.png)
+![Facet Manager Extension dropdown](assets/Facet_Manager_Extension_dropdown.png)
 
 If you do not have a JSON file with your wished-for Facets yet, then make sure the Facets have been created in OpenRefine first. Then use the Facet Manager to export those Facets to a JSON File, to be imported the next time you use OpenRefine. A few notes about this may contain:
 
