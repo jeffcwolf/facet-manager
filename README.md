@@ -16,7 +16,7 @@ This extension is provided as-is, without any expectation of ongoing maintenance
 
 ## Usage
 
-Explain how to use your extension with screenshots/examples.
+Explain how  to use your extension with screenshots/examples.
 
 ## Building from Source
 
