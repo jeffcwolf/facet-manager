@@ -1,5 +1,7 @@
 # Facet Manager
 
+ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18659421.svg)](https://doi.org/10.5281/zenodo.18659421)
+
 This OpenRefine extension provides the user the ability to import and export Facets to/from an OpenRefine project, bypassing the (rather limited) Permalink functionality.
 
 ## Status
