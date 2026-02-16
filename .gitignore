@@ -25,3 +25,9 @@ dependency-reduced-pom.xml
 .DS_Store
 .DS_Store?
 ._*
+
+# Security
+.env
+*.pem
+*.key
+id_rsa
