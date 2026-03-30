@@ -1,0 +1,53 @@
+name: facet-manager
+description: "An OpenRefine extension for importing and exporting Facet configurations as JSON, bypassing the permalink URL length limitations."
+status: stable
+category: other
+language: java
+forge: github
+visibility: public
+tags: [openrefine, data-cleaning, open-source]
+notes: "Provided as-is, no ongoing maintenance planned. DOI: 10.5281/zenodo.18659421"
+created: ""
+last_touched: ""
+# ── Website publication (functionsandfolios.com) ──────────────────────────────
+website:
+  publish: true
+  slug: facet-manager
+  order: 99
+  category: "Open-Source Tools"
+  audience: "Researchers and data engineers using OpenRefine for data cleaning"
+  platform: [macOS, Windows, Linux]
+  license: Apache-2.0
+  internal_url: "/digital-projects/facet-manager"
+  video_url: ""
+  download_url: ""
+  screenshots: []
+  doi: "10.5281/zenodo.18659421"
+  description_long: |
+    Facet Manager is an OpenRefine extension that allows you to save and restore
+    Facet configurations as JSON files, bypassing the limitations of OpenRefine's
+    built-in permalink functionality.
+
+    When working with complex Facet configurations, OpenRefine's permalink URLs
+    can exceed browser and server length limits (typically 2,083 characters),
+    producing an HTTP 414 error. Facet Manager solves this by exporting the
+    configuration to a local JSON file and importing it again in a later session.
+
+    ## Supported Facet Types
+
+    - List facets
+    - Range facets
+    - Timerange facets
+    - Text facets
+    - Scatterplot facets
+
+    ## Usage
+
+    After installation the extension appears in OpenRefine's Extensions dropdown.
+    Use **Export Facets** to save your current configuration to `facet-config.json`,
+    and **Import Facets** to restore it in any subsequent session.
+
+    ## Status
+
+    Stable. Provided as-is with no ongoing maintenance planned. Feel free to fork
+    and modify. Published with a DOI via Zenodo.
